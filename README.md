@@ -1,2 +1,2 @@
 # terraform-vpc-secure
-First Terraform Project
+Provision a secure AWS VPC using Terraform.
