@@ -87,7 +87,7 @@ Captures network traffic metadata for security auditing and troubleshooting. Log
 **Modular Terraform setup with variables & outputs ** 
 Reusable Terraform module structure. Parameters like CIDR, AZ count, and project name are defined in `variables.tf`, while subnet IDs, VPC ID, and route table IDs are exported in `outputs.tf`.  
 
-##Screenshots 
+## Screenshots 
 
 VPC Overview
 Visual summary of VPC, subnets, route tables, IGW, and NAT.  
