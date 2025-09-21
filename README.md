@@ -58,7 +58,7 @@ Plan and apply
 terraform plan -var-file=envs/dev/terraform.tfvars
 terraform apply -auto-approve -var-file=envs/dev/terraform.tfvars
 
-##Terraform Output
+## Terraform Output
 
 private_subnet_ids = [
 "subnet-0ddf119026fd51732",
