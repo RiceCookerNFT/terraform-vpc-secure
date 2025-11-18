@@ -45,31 +45,22 @@ flowchart LR
 
 ## Setup and Usage
 
-git clone <your-repo-url>
+## Setup and Usage
+
+```bash
+git clone https://github.com/RiceCookerNFT/terraform-vpc-secure.git
 cd terraform-vpc-secure
 
-Initialize Terraform with remote backend
+# Initialize Terraform with remote backend
 terraform init -reconfigure -backend-config=envs/dev/backend.hcl
 
-Format & validate
+# Format & validate
 terraform fmt -recursive
 terraform validate
 
-Plan and apply
+# Plan and apply
 terraform plan -var-file=envs/dev/terraform.tfvars
 terraform apply -auto-approve -var-file=envs/dev/terraform.tfvars
-
-## Terraform Output
-
-private_subnet_ids = [
-"subnet-0ddf119026fd51732",
-"subnet-07e76c7335319617a",
-]
-public_subnet_ids = [
-"subnet-0cfdc3f64228a92c5",
-"subnet-0d0a15c79b92266ad",
-]
-vpc_id = "vpc-096682ba84f19c6ec"
 
 ## Features
 
