@@ -47,7 +47,7 @@ flowchart LR
 
 ## Setup and Usage
 
-```bash
+bash
 git clone https://github.com/RiceCookerNFT/terraform-vpc-secure.git
 cd terraform-vpc-secure
 
