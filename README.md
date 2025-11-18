@@ -1,6 +1,6 @@
 # terraform-vpc-secure
 
-Built to practice production-style AWS networking + Terraform workflows (remote state, modules, debugging, cost awareness).
+Built to practice production-style AWS networking + Terraform workflows (remote state, modules, debugging, cost awareness).  
 **Secure AWS VPC infrastructure** in `ap-southeast-1`, built with Terraform.  
 Public + private subnets, Internet Gateway, optional NAT Gateway & Flow Logs for observability.
 
