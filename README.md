@@ -45,20 +45,17 @@ flowchart LR
 
 ## Setup and Usage
 
-## Setup and Usage
-
-bash
 git clone https://github.com/RiceCookerNFT/terraform-vpc-secure.git
 cd terraform-vpc-secure
 
-# Initialize Terraform with remote backend
+**Initialize Terraform with remote backend**
 terraform init -reconfigure -backend-config=envs/dev/backend.hcl
 
-# Format & validate
+**Format & validate**
 terraform fmt -recursive
 terraform validate
 
-# Plan and apply
+**Plan and apply**
 terraform plan -var-file=envs/dev/terraform.tfvars
 terraform apply -auto-approve -var-file=envs/dev/terraform.tfvars
 
